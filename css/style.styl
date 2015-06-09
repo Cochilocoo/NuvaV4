@@ -1,0 +1,604 @@
+@import 'jeet'
+
+edit()
+
+@font-face
+	font-family ProximaNovaBlack
+	src url(../fonts/ProximaNovaBlack.otf)
+	
+
+@font-face
+	font-family ProximaNovaRegular
+	font-style normal
+	src url(../fonts/ProximaNovaRegular.otf)
+
+@font-face
+	font-family ProximaNovaLight
+	font-style normal
+	src url(../fonts/ProximaNovaLight.otf)
+
+@font-face
+	font-family Aroly
+	font-style normal
+	src url(fonts/Aroly.ttf)
+
+html
+	height 100%
+body
+	margin 0
+	padding 0
+	height 100%
+	font-family ProximaNovaLight
+	
+.intro
+	width 100%
+	height 100%
+	background-color rgb(19,19,19)
+	
+.weAre
+	overflow hidden
+	background-color #F5F5F5
+	.container
+		width 70%
+		margin 0 auto
+		padding-left 10%
+		padding-top 15%
+		padding-bottom 15%
+		col(4/5)
+	.greenBar
+		display none
+	.purpleBar
+		display none
+	h1
+		col(3/3)
+		font-size 5em
+		margin-top 0
+		margin-bottom 0
+		font-family ProximaNovaBlack
+	.nuva
+		font-family ProximaNovaBlack
+		font-size 6.7em
+		margin-top -0.4em
+		margin-bottom 0
+		col(3/3)
+	.text
+		col(3/3)
+	p 
+		margin-top 0
+		col(2/5)
+		font-size 1.1em
+	.greenDots
+		margin auto
+		margin-top 0
+		right 0
+		position absolute
+		width 40%
+		max-width 600px
+		img
+			width 100%
+	.purpleDots
+		margin auto
+		margin-top 20px
+		right 0
+		position absolute
+		width 40%
+		max-width 600px
+		img
+			width 100%
+.banner1
+	height 40%
+	background-image url(../images/banner1.png)
+	display table
+	width 100%
+	.text
+		overflow hidden
+		display table-cell
+		vertical-align middle
+	.line1
+		col(3/3)
+		text-align center
+		font-family ProximaNovaLight
+		font-weight lighter
+		font-size 4.5em
+		color rgb(255,255,255)
+	.line2
+		col(3/3)
+		text-align center
+		font-family Aroly
+		font-size 8.4em
+		color rgb(255,255,255)
+		transition all 500ms ease
+		&:hover
+			color #FFC107
+.ourServices
+	padding-top 6em
+	padding-bottom 10em
+	overflow hidden
+	.menu
+		text-align center
+		center()
+		.serviceMenu
+			display inline-table
+			width 200px
+			height 200px
+			font-family ProximaNovaRegular
+			transition all 700ms ease
+			a 
+				display table-cell
+				vertical-align middle
+				text-decoration none
+				font-weight bold
+	#webDesign
+		&:hover
+			background-color rgb(76,175,80)
+		a 
+			color rgb(76, 175, 80)
+			&:hover
+				color rgb(255,255,255)
+	#appDev
+		&:hover
+			background-color rgb(74,20,140)
+		a 
+			color rgb(74,20,140)
+			&:hover
+				color rgb(255,255,255)
+	#socialMedia
+		&:hover
+			background-color rgb(213,0,0)
+		a 
+			color rgb(213,0,0)
+			&:hover
+				color rgb(255,255,255)
+	#branding
+		&:hover
+			background-color rgb(0,184,212)
+		a 
+			color rgb(0,184,212)
+			&:hover
+				color rgb(255,255,255)
+	#photo
+		&:hover
+			background-color rgb(255,147,30)
+		a 
+			color rgb(255,147,30)
+			&:hover
+				color rgb(255,255,255)
+	.servicesInfo
+		margin-top 5em
+		.infoService
+			overflow hidden
+			.icon
+				col(1/2)
+				text-align right
+				img 
+					width 60%
+			.desc
+				col(1/2)	
+				h2 
+					font-family ProximaNovaBlack
+					font-size 3.6em
+					col(3/5)
+					margin 0
+					line-height 0.8em
+					color rgb(76,175,80)
+				p 
+					col(3/5)	
+					font-size 1.1em
+.projects
+	background-color rgb(90,90,90)
+	overflow hidden
+	padding-bottom 5em
+	h2
+		font-family ProximaNovaBlack
+		color white
+		font-size 3.5em
+		margin-left 15%
+		padding-top 1em
+	.portfolio
+		margin 0 auto
+		width 980px
+		overflow hidden
+		.view 
+			width 600px
+			height 250px
+			margin 10px
+			float left 
+			border 10px solid #Fff 
+			overflow hidden
+			position relative
+			text-align center
+			box-shadow 1px 1px 2px #e6e6e6
+			background-color #fff
+			.mask 
+				width 600px
+				height 250px
+				position absolute
+				overflow hidden
+				top 0
+				left 0
+			img 
+				display block
+				position relative
+				margin 0 auto
+				width 100%
+			h3 
+				color #fff 
+				text-align center 
+				position relative
+				font-size 30px
+				padding 10px 
+				font-family ProximaNovaBlack
+				margin 30px 0 0 0
+			p 
+				font-family ProximaNovaLight
+				font-size 18px
+				position relative
+				color #fff 
+				padding 10px 20px 20px 
+				text-align center 
+			a.info 
+				display inline-block
+				text-decoration none 
+				padding 7px 14px 
+				border 2px white solid
+				color #fff 
+				text-transform uppercase
+				&:hover 
+					background-color #000
+		.view-first
+			img 
+				transition all 0.2s linear
+			.mask 
+				opacity 0
+				background-color rgba(219, 127, 8, 0.7)
+				transition all 0.4s ease-in-out
+			h2
+				transform translateY(100px)
+				opacity 0
+				transition all 0.2s ease-in-out
+			p 
+				transform translateY(100px)
+				opacity 0
+				transition all 0.2s linear
+			a.info
+				opacity 0
+				transition all 0.2s linear
+			&:hover 
+				img 
+					transform scale(1.1)
+				.mask
+					opacity 1
+				h2, p, a.info 
+					opacity 1
+					transform translateY(0px)
+				p 	
+					transition-delay 0.1s
+				a.info 
+					transition-delay 0.2s
+		.view2 
+			width 300px
+			height 250px
+			margin 10px
+			float left 
+			border 10px solid #Fff 
+			overflow hidden
+			position relative
+			text-align center
+			box-shadow 1px 1px 2px #e6e6e6
+			background-color #fff 
+			.mask 
+				width 300px
+				height 250px
+				position absolute
+				overflow hidden
+				top 0
+				left 0
+			img 
+				display block
+				position relative
+				margin 0 auto
+				width 100%
+			h3 
+				color #fff 
+				text-align center 
+				position relative
+				font-size 30px
+				padding 10px 
+				font-family ProximaNovaBlack
+				margin 30px 0 0 0
+			p 
+				font-family ProximaNovaLight
+				font-size 18px
+				position relative
+				color #fff 
+				padding 10px 20px 20px 
+				text-align center 
+			a.info 
+				display inline-block
+				text-decoration none 
+				padding 7px 14px 
+				border 2px white solid
+				color #fff 
+				text-transform uppercase
+				&:hover 
+					background-color #000
+
+.banner2
+	font-family Aroly
+	font-size 48px
+	padding 15px
+	padding-bottom 0px
+	overflow hidden
+	div
+		color rgb(150,150,150)
+		letter-spacing -5px
+		float left
+		transition all 500ms ease
+		cursor pointer
+	.develop
+		font-size 1.7em
+		&:hover
+			color #F44336
+	.photo
+		font-size 1em
+		margin-left 5%
+		&:hover 
+			color #00BFA5
+	.code
+		font-size 1.2em
+		margin-left 5%
+		line-height 2em
+		&:hover 
+			color #D81B60
+	.web 
+		font-size 2em
+		margin-left 10%
+		line-height 1.4em
+		&:hover
+			color #6A1B9A
+	.apps
+		font-size 1.7em
+		line-height 2.1em 
+		margin-left 5%
+		&:hover
+			color #1565C0
+	.team 
+		font-size 1.2em 
+		margin-top -60px
+		&:hover 
+			color #43A047
+	.fun 
+		font-size 1.4em
+		margin-top -100px
+		margin-left 35%
+		&:hover
+			color #FF3D00
+	.succeed
+		font-size 3em
+		margin-left 50%
+		margin-top -60px
+		&:hover
+			color #FFC107
+	.branding
+		font-size 1em
+		line-height 1.2em
+		margin-top -90px 
+		margin-left 5%
+		&:hover
+			color #651FFF			
+	.socialMedia
+		line-height 2em
+		width 300px
+		text-align center
+		line-height 0.9em
+		margin-top -40px
+		margin-left 18%
+		&:hover
+			color #D50000
+	.internet
+		margin-left 23%
+		&:hover
+			color #304FFE
+	.ideas
+		margin-left 17%
+		font-size 0.9em
+		line-height 1.4em
+		&:hover
+			color #FDD835
+	.craft 
+		font-size 1.5em
+		&:hover 
+			color #D500F9
+	.reach
+		margin-top 30px
+		margin-left 2%
+		&:hover
+			color #00C853
+	.design 
+		font-size 1.8em
+		margin-left 10%
+		&:hover
+			color #FF7043
+	.coffee
+		margin-left 20%
+		font-size 1.4em
+		&:hover
+			color #009688
+.daTeam
+	overflow hidden
+	background-color rgb(19,19,19)
+	.container
+		margin 0 auto
+		padding-left 10%
+		padding-top 3em
+		padding-bottom 5em
+		width 70%
+		color white
+		overflow hidden
+		.text 
+			text-align right
+			font-size 1.1em
+			h1
+				font-family ProximaNovaBlack
+				font-size 3em
+			p 	
+				col(1/3)
+				shift(2/3)
+	.orangeDots
+		margin auto
+		margin-top 0
+		left 0
+		position absolute
+		float left
+		width 25%
+		max-width 600px
+		img
+			width 100%
+	.yellowDots
+		margin auto
+		margin-top 5%
+		left 0
+		position absolute
+		float left
+		width 20%
+		max-width 600px
+		img
+			width 100%
+	.teamPics
+		padding-top 3em
+		col(3/3)
+		.picture
+			col(1/3)
+			margin-right 0
+			img 
+				width 80%
+.contact
+	overflow hidden
+	.googleMap
+		col(1/2)
+		height 600px
+	h2
+		font-family ProximaNovaBlack
+		font-size 2.5em
+		color rgb(233,30,99)
+	.form
+		col(1/2)
+		height 100%
+		padding-top 5%
+		form
+			col(4/5)			
+			input
+				col(1/1)
+				border none
+				margin-top 10px
+				line-height 2em
+				font-size 1.2em
+				border 3px rgb(19,19,19) solid
+				border-radius 5px
+			textarea
+				col(1/1)
+				margin-top 10px
+				font-size 1.2em
+				font-family ProximaNovaRegular
+				border 3px rgb(19,19,19) solid
+				border-radius 5px
+			button
+				margin-top 10px
+				line-height 2em
+				col(1/2)
+				shift(1/2)
+				border-radius 5px 
+				background-color rgb(233,30,99)
+				border 3px rgb(233,30,99) solid
+				text-align center
+				color white
+				font-weight bold
+				font-size 1.2em
+				transition all 700ms ease
+				cursor pointer
+				&:hover
+					color rgb(233,30,99)
+					background-color white
+					border 3px rgb(233,30,99) solid
+.footer
+	background-color rgb(19,19,19)
+	color white
+	bottom 0
+	overflow hidden
+	.direccion
+		span(1/3)
+		text-align left
+		p 
+			padding-left 20%
+	.logo
+		span(1/3)
+		margin-top 5px
+		text-align center
+	.backTop
+		span(1/3)
+		text-align right
+		p 
+			padding-right 20%
+		a 
+			font-family ProximaNovaRegular
+			text-decoration none
+			color white
+			font-style italic
++mobile()
+	.weAre
+		p
+			col(3/3)
+		h1
+			font-size 4.2em
+		.nuva
+			font-size 5.4em
+		.purpleBar
+			col(2/3)
+			shift(1/3)
+			display block
+			height 1em
+			background-color rgb(85, 139, 47)
+			
+		.greenBar
+			col(2/3)
+			display block
+			height 1em
+			background-color rgb(74, 20, 140)
+		.purpleDots
+		.greenDots
+			display none
+	
+	.banner1
+		height 30%
+		.line1
+			font-size 3em
+		.line2
+			font-size 5.2em
+
++tablet()
+	.weAre
+		.purpleDots
+			width 50%
+			margin-top 30px
+		.greenDots
+			width 50%
+			margin-top 10px
+			
++between(401px, 800px)
+	.weAre
+		p 
+			col(3/3)
+		.purpleBar
+			col(2/3)
+			shift(1/3)
+			display block
+			height 1em
+			background-color rgb(85, 139, 47)
+		.greenBar
+			col(2/3)
+			display block
+			height 1em
+			background-color rgb(74, 20, 140)
+		.purpleDots
+		.greenDots
+			display none
