@@ -276,6 +276,7 @@ body {
   height: 200px;
   font-family: ProximaNovaRegular;
   transition: all 700ms ease;
+  cursor: pointer;
 }
 .ourServices .menu .serviceMenu a {
   display: table-cell;
@@ -333,7 +334,6 @@ body {
 }
 .ourServices .servicesInfo .infoService {
   overflow: hidden;
-  display: none;
 }
 .ourServices .servicesInfo .infoService .icon {
   *zoom: 1;
@@ -379,7 +379,7 @@ body {
 .ourServices .servicesInfo .infoService .desc:last-child {
   margin-right: 0%;
 }
-.ourServices .servicesInfo #infoWeb .desc h2 {
+.ourServices .servicesInfo .infoService .desc h2 {
   font-family: ProximaNovaBlack;
   font-size: 3.6em;
   *zoom: 1;
@@ -391,63 +391,6 @@ body {
   margin-right: 3%;
   margin: 0;
   line-height: 0.8em;
-  color: #4caf50;
-}
-.ourServices .servicesInfo #infoApp .desc h2 {
-  font-family: ProximaNovaBlack;
-  font-size: 3.6em;
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 58.8%;
-  margin-left: 0%;
-  margin-right: 3%;
-  margin: 0;
-  line-height: 0.8em;
-  color: #4a148c;
-}
-.ourServices .servicesInfo #infoSoc .desc h2 {
-  font-family: ProximaNovaBlack;
-  font-size: 3.6em;
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 58.8%;
-  margin-left: 0%;
-  margin-right: 3%;
-  margin: 0;
-  line-height: 0.8em;
-  color: #d50000;
-}
-.ourServices .servicesInfo #infoBra .desc h2 {
-  font-family: ProximaNovaBlack;
-  font-size: 3.6em;
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 58.8%;
-  margin-left: 0%;
-  margin-right: 3%;
-  margin: 0;
-  line-height: 0.8em;
-  color: #00b8d4;
-}
-.ourServices .servicesInfo #infoPho .desc h2 {
-  font-family: ProximaNovaBlack;
-  font-size: 3.6em;
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 58.8%;
-  margin-left: 0%;
-  margin-right: 3%;
-  margin: 0;
-  line-height: 0.8em;
-  color: #ff931e;
 }
 .ourServices .servicesInfo .infoService .desc h2:before,
 .ourServices .servicesInfo .infoService .desc h2:after {
@@ -480,6 +423,33 @@ body {
 }
 .ourServices .servicesInfo .infoService .desc p:last-child {
   margin-right: 0%;
+}
+.ourServices .servicesInfo #infoWeb h2 {
+  color: #4caf50;
+}
+.ourServices .servicesInfo #infoApp {
+  display: none;
+}
+.ourServices .servicesInfo #infoApp h2 {
+  color: #4a148c;
+}
+.ourServices .servicesInfo #infoSoc {
+  display: none;
+}
+.ourServices .servicesInfo #infoSoc h2 {
+  color: #d50000;
+}
+.ourServices .servicesInfo #infoBra {
+  display: none;
+}
+.ourServices .servicesInfo #infoBra h2 {
+  color: #00b8d4;
+}
+.ourServices .servicesInfo #infoPho {
+  display: none;
+}
+.ourServices .servicesInfo #infoPho h2 {
+  color: #ff931e;
 }
 .projects {
   background-color: #5a5a5a;
