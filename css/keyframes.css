@@ -1,0 +1,493 @@
+@-webkit-keyframes element{
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:1;
+    stroke-opacity:0;
+    stroke-dashoffset: 0;
+    }
+}
+@-webkit-keyframes startScrolling{
+  0% {
+    fill-opacity:1;
+    stroke-opacity:0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:1;
+    stroke-opacity:0;
+    stroke-dashoffset:570;
+    }
+}
+@keyframes element{
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:1;
+    stroke-opacity:0;
+    stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes circ{
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:0;
+    stroke-opacity:0;
+    stroke-dashoffset:0;
+  }
+}
+@keyframes circ{
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:0;
+    stroke-opacity:0;
+    stroke-dashoffset:0;
+  }
+}
+/* BG CIRCLE KEYFRAMES COMMENTED */
+/*@-webkit-keyframes bgCirc{
+  0% {}
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:0;
+    stroke-opacity:1;
+    stroke-dashoffset: 50;
+  }
+}
+@keyframes bgCirc{
+  0% {}
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:0;
+    stroke-opacity:1;
+    stroke-dashoffset: 50;
+  }
+}*/
+@-webkit-keyframes rainbowLinePATH{
+  50% {
+  }
+  100% {
+    stroke-dashoffset:0;
+  }
+}
+@keyframes rainbowLinePATH{
+  100% {
+    stroke-dashoffset:0;
+  }
+}
+@-webkit-keyframes brandingLines{
+  0% {}
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:0;
+    stroke-opacity:1;
+    stroke-dashoffset:1140;
+  }
+}
+@keyframes brandingLines{ 
+  0% {}
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity:0;
+  }
+  100% {
+    fill-opacity:0;
+    stroke-opacity:1;
+    stroke-dashoffset:1140;
+  }
+}
+#nLetter{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+
+  -webkit-animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#uLetter{
+  fill-opacity:0;
+  fill:#f1f2f2;
+  stroke:#fff;
+  stroke-width:2;
+
+  -webkit-animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#vLetter{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+    
+  -webkit-animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#aLetter{
+  fill-opacity:0;
+  fill:#f1f2f2;
+ 
+  stroke-width:2;
+  stroke:#fff;
+
+  -webkit-animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#glyph{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+  
+  -webkit-animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: element 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#circle{
+  fill-opacity:0;
+  stroke-width:2;
+  
+  -webkit-animation: circ 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: circ 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss1{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss2{
+  fill-opacity:0;
+  fill:#f1f2f2;
+  stroke:#fff;
+  stroke-width:2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 3.65s;
+          animation-delay: 3.65s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss3{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+    
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 3.75s;
+          animation-delay: 3.75s;
+
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss4{
+  fill-opacity:0;
+  fill:#f1f2f2;
+ 
+  stroke-width:2;
+  stroke:#fff;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+  
+  -webkit-animation-delay: 3.85s;
+          animation-delay: 3.85s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss5{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+  animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.05s;
+          animation-delay: 4.05s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss6{
+  fill-opacity:0;
+  fill:#f1f2f2;
+  stroke:#fff;
+  stroke-width:2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.15s;
+          animation-delay: 4.15s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss7{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+    
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.25s;
+          animation-delay: 4.25s;
+
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss8{
+  fill-opacity:0;
+  fill:#f1f2f2;
+ 
+  stroke-width:2;
+  stroke:#fff;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+  
+  -webkit-animation-delay: 4.35s;
+          animation-delay: 4.35s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss9{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+  animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.45s;
+          animation-delay: 4.45s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss10{
+  fill-opacity:0;
+  fill:#f1f2f2;
+  stroke:#fff;
+  stroke-width:2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.55s;
+          animation-delay: 4.55s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss11{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+    
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.65s;
+          animation-delay: 4.65s;
+
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss12{
+  fill-opacity:0;
+  fill:#f1f2f2;
+ 
+  stroke-width:2;
+  stroke:#fff;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+  
+  -webkit-animation-delay: 4.75s;
+          animation-delay: 4.75s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss13{
+  fill-opacity:0;
+  stroke:#fff;
+  stroke-width:2;
+  fill:#f1f2f2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+  animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.85s;
+          animation-delay: 4.85s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#ss14{
+  fill-opacity:0;
+  fill:#f1f2f2;
+  stroke:#fff;
+  stroke-width:2;
+
+  -webkit-animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+          animation: startScrolling 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.995) infinite;
+
+  -webkit-animation-delay: 4.95s;
+          animation-delay: 4.95s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+
+#bA,#bB,#bC, #bD, #bE, #bF, #bG, #bH, #bI, #bJ, #bK, #bL, #bM, #bN, #bO, #bP, #bQ, #bR{
+  -webkit-animation: circ .7s cubic-bezier(0.645, 0.045, 0.355, 1);  
+  animation: circ .7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+  -webkit-animation-delay: 1.0s;
+          animation-delay: 1.0s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#forkPATH{
+  fill-opacity:0;
+  stroke-width:3;
+  
+  -webkit-animation: circ 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: circ 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#rainbowLinePATH{
+  fill-opacity:0;
+  
+  -webkit-animation: rainbowLinePATH 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: rainbowLinePATH 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards;
+}
+#brandingDiamond{
+  -webkit-animation: bgCirc 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+          animation: bgCirc 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  
+  -webkit-animation-fill-mode:  forwards;
+     -moz-animation-fill-mode:  forwards;
+          animation-fill-mode:  forwards
+}

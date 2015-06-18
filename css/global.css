@@ -1,0 +1,35 @@
+@font-face{
+	src:url(../fnt/black.otf);
+	font-family:Black;
+}
+@font-face{
+	src:url(../fnt/light-condensed.otf);
+	font-family:Light-Condensed;
+}
+
+.full{
+	width:100% !important;
+	height:100% !important;
+	margin: 0 0;
+	padding: 0 0;
+}
+.int,
+.ext{
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+}
+.ext{
+	width:100%;
+}
+.int{
+	width:60%;
+	text-align: left;
+}
+.cont{
+	text-align: left;
+}
+.padded{
+	padding-top:15%;
+	padding-bottom:15%;
+}

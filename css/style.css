@@ -465,11 +465,11 @@ body {
 }
 .projects .portfolio {
   margin: 0 auto;
-  width: 980px;
+  width: 1020px;
   overflow: hidden;
 }
 .projects .portfolio .view {
-  width: 600px;
+  width: 300px;
   height: 250px;
   margin: 10px;
   float: left;
@@ -481,7 +481,7 @@ body {
   background-color: #fff;
 }
 .projects .portfolio .view .mask {
-  width: 600px;
+  width: 300px;
   height: 250px;
   position: absolute;
   overflow: hidden;
@@ -631,59 +631,59 @@ body {
   cursor: pointer;
 }
 .banner2 .develop {
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 .banner2 .develop:hover {
   color: #f44336;
 }
 .banner2 .photo {
   font-size: 1em;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .banner2 .photo:hover {
   color: #00bfa5;
 }
 .banner2 .code {
   font-size: 1.2em;
-  margin-left: 5%;
-  line-height: 2em;
+  margin-left: 2%;
+  line-height: 1.5em;
 }
 .banner2 .code:hover {
   color: #d81b60;
 }
 .banner2 .web {
-  font-size: 2em;
-  margin-left: 10%;
+  font-size: 1.8em;
+  margin-left: 8%;
   line-height: 1.4em;
 }
 .banner2 .web:hover {
   color: #6a1b9a;
 }
 .banner2 .apps {
-  font-size: 1.7em;
-  line-height: 2.1em;
-  margin-left: 5%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-left: 2%;
 }
 .banner2 .apps:hover {
   color: #1565c0;
 }
 .banner2 .team {
   font-size: 1.2em;
-  margin-top: -60px;
+  margin-top: -40px;
 }
 .banner2 .team:hover {
   color: #43a047;
 }
 .banner2 .fun {
   font-size: 1.4em;
-  margin-top: -100px;
-  margin-left: 35%;
+  margin-top: -30px;
+  margin-left: 20%;
 }
 .banner2 .fun:hover {
   color: #ff3d00;
 }
 .banner2 .succeed {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-left: 50%;
   margin-top: -60px;
 }
@@ -692,7 +692,7 @@ body {
 }
 .banner2 .branding {
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1em;
   margin-top: -90px;
   margin-left: 5%;
 }
@@ -704,8 +704,8 @@ body {
   width: 300px;
   text-align: center;
   line-height: 0.9em;
-  margin-top: -40px;
-  margin-left: 18%;
+  margin-top: -90px;
+  margin-left: 25%;
 }
 .banner2 .socialMedia:hover {
   color: #d50000;
@@ -731,7 +731,7 @@ body {
   color: #d500f9;
 }
 .banner2 .reach {
-  margin-top: 30px;
+  margin-top: 0;
   margin-left: 2%;
 }
 .banner2 .reach:hover {
@@ -1179,10 +1179,429 @@ body {
     height: 30%;
   }
   .banner1 .line1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .banner1 .line2 {
     font-size: 5.2em;
+  }
+  .ourServices {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .ourServices .menu {
+    display: none;
+  }
+  .ourServices .servicesInfo {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .ourServices .servicesInfo .infoService {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .ourServices .servicesInfo .infoService .icon {
+    display: none;
+  }
+  .ourServices .servicesInfo .infoService .desc {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .ourServices .servicesInfo .infoService .desc:before,
+  .ourServices .servicesInfo .infoService .desc:after {
+    content: '';
+    display: table;
+  }
+  .ourServices .servicesInfo .infoService .desc:after {
+    clear: both;
+  }
+  .ourServices .servicesInfo .infoService .desc:last-child {
+    margin-right: 0%;
+  }
+  .ourServices .servicesInfo .infoService .desc h2 {
+    font-size: 2.2em;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    text-align: center;
+  }
+  .ourServices .servicesInfo .infoService .desc h2:before,
+  .ourServices .servicesInfo .infoService .desc h2:after {
+    content: '';
+    display: table;
+  }
+  .ourServices .servicesInfo .infoService .desc h2:after {
+    clear: both;
+  }
+  .ourServices .servicesInfo .infoService .desc h2:last-child {
+    margin-right: 0%;
+  }
+  .ourServices .servicesInfo .infoService .desc p {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .ourServices .servicesInfo .infoService .desc p:before,
+  .ourServices .servicesInfo .infoService .desc p:after {
+    content: '';
+    display: table;
+  }
+  .ourServices .servicesInfo .infoService .desc p:after {
+    clear: both;
+  }
+  .ourServices .servicesInfo .infoService .desc p:last-child {
+    margin-right: 0%;
+  }
+  .ourServices .servicesInfo #infoApp {
+    display: block;
+  }
+  .ourServices .servicesInfo #infoSoc {
+    display: block;
+  }
+  .ourServices .servicesInfo #infoBra {
+    display: block;
+  }
+  .ourServices .servicesInfo #infoPho {
+    display: block;
+  }
+  .projects {
+    text-align: center;
+  }
+  .projects h2 {
+    font-size: 2em;
+    margin-left: 5%;
+    padding-top: 0.5em;
+  }
+  .projects .portfolio {
+    text-align: center;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    overflow: hidden;
+  }
+  .projects .portfolio:before,
+  .projects .portfolio:after {
+    content: '';
+    display: table;
+  }
+  .projects .portfolio:after {
+    clear: both;
+  }
+  .projects .portfolio:last-child {
+    margin-right: 0%;
+  }
+  .projects .portfolio .view {
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .projects .portfolio .view .mask {
+    width: 250px;
+    height: 200px;
+  }
+  .projects .portfolio .view2 {
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .projects .portfolio .view2 .mask {
+    width: 250px;
+    height: 200px;
+  }
+  .banner2 {
+    font-size: 36px;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
+  .banner2 .develop {
+    font-size: 1em;
+  }
+  .banner2 .develop:hover {
+    color: #f44336;
+  }
+  .banner2 .photo {
+    display: none;
+  }
+  .banner2 .code {
+    display: none;
+  }
+  .banner2 .web {
+    display: none;
+  }
+  .banner2 .apps {
+    display: none;
+  }
+  .banner2 .team {
+    display: none;
+  }
+  .banner2 .fun {
+    display: none;
+  }
+  .banner2 .succeed {
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  .banner2 .branding {
+    display: none;
+  }
+  .banner2 .socialMedia {
+    display: none;
+  }
+  .banner2 .internet {
+    display: none;
+  }
+  .banner2 .ideas {
+    display: none;
+  }
+  .banner2 .craft {
+    display: none;
+  }
+  .banner2 .reach {
+    display: none;
+  }
+  .banner2 .design {
+    font-size: 1em;
+    padding-bottom: 0.3em;
+    margin-left: 10%;
+    float: right;
+  }
+  .banner2 .design:hover {
+    color: #ff7043;
+  }
+  .banner2 .coffee {
+    display: none;
+  }
+  .daTeam {
+    padding: 0;
+  }
+  .daTeam .yellowDots {
+    display: none;
+  }
+  .daTeam .orangeDots {
+    display: none;
+  }
+  .daTeam .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 85%;
+    text-align: left;
+  }
+  .daTeam .container .text {
+    overflow: hidden;
+    text-align: left;
+  }
+  .daTeam .container .text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .daTeam .container .text p {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: relative;
+    left: 0%;
+  }
+  .daTeam .container .text p:before,
+  .daTeam .container .text p:after {
+    content: '';
+    display: table;
+  }
+  .daTeam .container .text p:after {
+    clear: both;
+  }
+  .daTeam .container .text p:last-child {
+    margin-right: 0%;
+  }
+  .daTeam .container .teamPics {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+  }
+  .daTeam .container .teamPics .picture {
+    text-align: center;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .daTeam .container .teamPics .picture:before,
+  .daTeam .container .teamPics .picture:after {
+    content: '';
+    display: table;
+  }
+  .daTeam .container .teamPics .picture:after {
+    clear: both;
+  }
+  .daTeam .container .teamPics .picture img {
+    width: 80%;
+  }
+  .contact .googleMap {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .contact .googleMap:before,
+  .contact .googleMap:after {
+    content: '';
+    display: table;
+  }
+  .contact .googleMap:after {
+    clear: both;
+  }
+  .contact .googleMap:last-child {
+    margin-right: 0%;
+  }
+  .contact .form {
+    padding-top: 0.1em;
+    padding-bottom: 2em;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .contact .form:before,
+  .contact .form:after {
+    content: '';
+    display: table;
+  }
+  .contact .form:after {
+    clear: both;
+  }
+  .contact .form:last-child {
+    margin-right: 0%;
+  }
+  .contact .form h2 {
+    padding-left: 15px;
+  }
+  .contact .form form {
+    margin: 0 auto;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 79.4%;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: relative;
+    left: 10.3%;
+  }
+  .contact .form form:before,
+  .contact .form form:after {
+    content: '';
+    display: table;
+  }
+  .contact .form form:after {
+    clear: both;
+  }
+  .contact .form form:last-child {
+    margin-right: 0%;
+  }
+  .contact .form form textarea {
+    padding: 0;
+  }
+  .footer .direccion {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .footer .direccion:before,
+  .footer .direccion:after {
+    content: '';
+    display: table;
+  }
+  .footer .direccion:after {
+    clear: both;
+  }
+  .footer .direccion p {
+    padding-left: 0;
+    text-align: center;
+  }
+  .footer .logo {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+  }
+  .footer .logo:before,
+  .footer .logo:after {
+    content: '';
+    display: table;
+  }
+  .footer .logo:after {
+    clear: both;
+  }
+  .footer .backTop {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+  }
+  .footer .backTop:before,
+  .footer .backTop:after {
+    content: '';
+    display: table;
+  }
+  .footer .backTop:after {
+    clear: both;
+  }
+  .footer .backTop p {
+    padding-right: 0;
+  }
+  .footer .backTop br {
+    display: none;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
@@ -1194,8 +1613,21 @@ body {
     width: 50%;
     margin-top: 10px;
   }
+  .banner2 {
+    font-size: 40px;
+  }
+  .banner2 .branding {
+    padding-top: 30px;
+  }
+  .banner2 .socialMedia {
+    width: 200px;
+    margin-left: 30%;
+  }
+  .banner2 .socialMedia:hover {
+    color: #d50000;
+  }
 }
-@media only screen and (min-width: 401px) and (max-width: 800px) {
+@media only screen and (min-width: 401px) and (max-width: 1020px) {
   .weAre p {
     *zoom: 1;
     float: left;
@@ -1267,5 +1699,161 @@ body {
   .weAre .purpleDots,
   .weAre .greenDots {
     display: none;
+  }
+  .banner1 .line1 {
+    font-size: 3.5em;
+  }
+  .banner1 .line2 {
+    font-size: 6.4em;
+  }
+  .ourServices {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .ourServices .menu {
+    display: none;
+  }
+  .ourServices .servicesInfo {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .ourServices .servicesInfo .infoService {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .ourServices .servicesInfo .infoService .icon {
+    display: none;
+  }
+  .ourServices .servicesInfo .infoService .desc {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .ourServices .servicesInfo .infoService .desc:before,
+  .ourServices .servicesInfo .infoService .desc:after {
+    content: '';
+    display: table;
+  }
+  .ourServices .servicesInfo .infoService .desc:after {
+    clear: both;
+  }
+  .ourServices .servicesInfo .infoService .desc:last-child {
+    margin-right: 0%;
+  }
+  .ourServices .servicesInfo .infoService .desc h2 {
+    font-size: 2.2em;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    text-align: center;
+  }
+  .ourServices .servicesInfo .infoService .desc h2:before,
+  .ourServices .servicesInfo .infoService .desc h2:after {
+    content: '';
+    display: table;
+  }
+  .ourServices .servicesInfo .infoService .desc h2:after {
+    clear: both;
+  }
+  .ourServices .servicesInfo .infoService .desc h2:last-child {
+    margin-right: 0%;
+  }
+  .ourServices .servicesInfo .infoService .desc p {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .ourServices .servicesInfo .infoService .desc p:before,
+  .ourServices .servicesInfo .infoService .desc p:after {
+    content: '';
+    display: table;
+  }
+  .ourServices .servicesInfo .infoService .desc p:after {
+    clear: both;
+  }
+  .ourServices .servicesInfo .infoService .desc p:last-child {
+    margin-right: 0%;
+  }
+  .ourServices .servicesInfo #infoApp {
+    display: inline-block;
+  }
+  .ourServices .servicesInfo #infoSoc {
+    display: inline-block;
+  }
+  .ourServices .servicesInfo #infoBra {
+    display: inline-block;
+  }
+  .ourServices .servicesInfo #infoPho {
+    display: inline-block;
+  }
+  .projects {
+    text-align: center;
+  }
+  .projects h2 {
+    font-size: 2em;
+    margin-left: 5%;
+    padding-top: 0.5em;
+  }
+  .projects .portfolio {
+    text-align: center;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    overflow: hidden;
+  }
+  .projects .portfolio:before,
+  .projects .portfolio:after {
+    content: '';
+    display: table;
+  }
+  .projects .portfolio:after {
+    clear: both;
+  }
+  .projects .portfolio:last-child {
+    margin-right: 0%;
+  }
+  .projects .portfolio .view {
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .projects .portfolio .view .mask {
+    width: 250px;
+    height: 200px;
+  }
+  .projects .portfolio .view2 {
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .projects .portfolio .view2 .mask {
+    width: 250px;
+    height: 200px;
   }
 }
